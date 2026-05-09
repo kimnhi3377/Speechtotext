@@ -1,0 +1,61 @@
+QDialog{
+    background-color: #1E1E2E;
+}
+
+/* Tiêu đề */
+QLabel{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Ô nội dung */
+QTextEdit{
+    background-color: #0d0d39;
+    color: white;
+    border: 2px solid #6C63FF;
+    border-radius: 12px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* Button */
+QPushButton{
+    background-color: #6C63FF;
+    color: white;
+    border: 2px solid #A29BFE;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    min-width: 120px;
+    min-height: 30px;
+    padding: 4px 6px;
+}
+
+/* Hover */
+QPushButton:hover{
+    background-color: #a19df5;;
+}
+
+/* Khi nhấn */
+QPushButton:pressed{
+    background-color: #05022d;
+}
+
+
+#bt_ghi {
+    background-color: #ff5252;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    padding: 8px;
+}
+
+#bt_ghi[recording="true"] {
+    background-color: #00c853;
+}
+
+#widget_editor{
+    background-color: #2b2b55;
+    border: 2px solid red;
+}
